@@ -1,0 +1,113 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Environment variables #
+.env
+
+# Database #
+db.sqlite3
+db.sqlite3-journal
+
+# Static files #
+staticfiles/
+static/
+media/
+
+# Django migrations #
+**/migrations/*
+!**/migrations/__init__.py
+
+# VS Code #
+.vscode/
+
+# pyenv #
+.python-version
+
+# Virtual environment #
+venv/
+env/
+ENV/
+.venv/
+ENV/
+
+# macOS #
+.DS_Store
+
+# Windows #
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Python Bytecode #
+*.py[cod]
+*$py.class
+
+# Python Eggs #
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+
+# Coverage reports #
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments #
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Test reports #
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+.nox/
+
+# MyPy #
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+
+
+# VS Code #
+.vscode/
+.vscode/*
+
+# Others #
+*.swp
+*~
+.cache
+.project
+.pydevproject
